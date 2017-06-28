@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Evolve brand journey</title>
+        <link rel="stylesheet" href="./presentation/css/reveal.css">
+        <link rel="stylesheet" href="./presentation/css/theme/black.css" id="theme">
+        <link rel="stylesheet" href="./presentation/css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./presentation/css/print/paper.css" type="text/css" media="print">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_01.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_02.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_03.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_04.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_05.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_06.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_07.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_08.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_09.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_10.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_11.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_12.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_13.jpg" -->
+</script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="./presentation/Evolve_Logotype_Concept_14.jpg" -->
+</script></section></div>
+        </div>
+
+        <script src="./presentation/lib/js/head.min.js"></script>
+        <script src="./presentation/js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './presentation/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './presentation/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './presentation/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './presentation/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './presentation/plugin/zoom-js/zoom.js', async: true },
+              { src: './presentation/plugin/notes/notes.js', async: true },
+              { src: './presentation/plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+            Reveal.initialize(options);
+        </script>
+    </body>
+</html>
